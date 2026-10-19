@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* evita que estoure o tamanho base*/
+}
+
+header{
+    background-color: #0B1628;
+    color: #F7F8FA;
+    line-height: 1.6;
+    text-align: center;
+    padding: 3rem 1rem;
+    box-shadow: 0 4px 6px #ffffff;
+}
+header p{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+nav{
+    margin-top: 20pt;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+nav a{
+    color: #F7F8FA;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+nav a :hover{
+    background-color:hsl(41, 40%, 54%) ;
+}
