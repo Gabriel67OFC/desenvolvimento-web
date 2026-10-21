@@ -127,3 +127,65 @@ th{
     color: #F7F8FA;
     text-transform: uppercase;
 }
+
+tbody tr:nth-child(even){
+    background-color:#cfa860
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #0D3328;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus{
+    border-color: #0D3328;
+    outline: none;
+    box-shadow: 0 0 5px #158e5a;
+}
+
+label{
+font-weight: bold;
+display: inline-block;
+margin-top: 10px;
+}
+
+button{
+    width: 100%;
+    color: #FFF;
+    background-color: #0D3328;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #158e5a;
+    color: #FFF;
+    font-size: 1rem;
+}
+
+i{
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+i:hover{
+    transform: scale(1.3);
+}
